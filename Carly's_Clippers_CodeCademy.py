@@ -11,3 +11,13 @@ total_price = 0
 
 for price in prices:
   total_price += price
+
+average_price = total_price / len(prices)
+ 
+print("Average Haircut Price: " , average_price)
+
+new_prices = [price - 5 for price in prices]
+
+print(new_prices)
+
+total_revenue = 0
